@@ -1,196 +1,172 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-html{
-    font-family: 'Raleway', sans-serif;
+html {
+  font-family: 'Raleway', sans-serif;
 }
 
 .fas {
-    color: #0065fc;
-}
-.fa-map-marker-alt{
-    color: black;
-    font-size: 20px; 
-    padding: 10px;  
-    background: #f2f2f2;
-    border-top-left-radius: 30%;
-    border-bottom-left-radius: 30%;
-}
-.search{
-    background: #0065fc;
-    color: white;  
-    font-size: 12px;  
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 30px; 
-    border: 0px;
-    font-size: 14px; 
-    
-}
-.search-input{
-    border-left: thin;
-    border-right: thin;
-    padding: 10x;
-    width: 200px; height: 20px;
-    
+  color: #0065fc;
 }
 
-nav{
-    text-align: right;
+.fa-map-marker-alt {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  background: #f2f2f2;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
 }
 
-a{
-    text-decoration: none;
+button {
+  margin-left: 15px;
+  border: #f2f2f2 2px solid;
+  border-radius: 30px;
+  background-color: white;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 15px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-a:hover{
-    text-decoration: overline;
-    color: #0065fc;
+.search-input {
+  border-left: thin;
+  border-right: thin;
+  padding: 10x;
+  width: 200px;
+  height: 20px;
 }
 
-a:active{
-    text-decoration: overline;
+nav {
+  text-align: right;
+  padding-top: 20px;
+  border-top: royalblue;
 }
-form{
-    display: flex;
+
+a {
+  text-decoration: none;
 }
-.filters{
-    display: flex;
-    list-style: none;
-    
+
+a:hover {
+  text-decoration: overline;
+  color: #0065fc;
+  padding-top: 20px;
 }
-li{
-    padding-left: 15px;
+
+a:active {
+  text-decoration: overline;
+}
+
+form {
+  display: flex;
+}
+
+li {
+  padding-left: 15px;
 }
 
 .fa-money-bill-wave {
-    background: #beedff;
-    border-radius: 50%;
-    border: 0px;
-    background-size: 50px;
-    padding: 10px;
+  background: #beedff;
+  border-radius: 50%;
+  border: 0px;
+  padding: 15px;  /* change the background size of the icon*/
+  margin-right: 15px;
 }
 
+.fa-child {
+  background: #beedff;
+  border-radius: 50%;
+  border: 0px;
+  padding: 15px;  /* change the background size of the icon*/
+  margin-right: 15px;
+}
 
-*/
+.fa-heart {
+  background: #beedff;
+  border-radius: 50%;
+  border: 0px;
+  padding: 15px;  /* change the background size of the icon*/
+  margin-right: 15px;
+}
+
+.fa-dog {
+  background: #beedff;
+  border-radius: 50%;
+  border: 0px;
+  padding: 15px;  /* change the background size of the icon*/
+  margin-right: 15px;
+}
+
 .fa-info {
-    padding: 10px;
-    background: #beedff;
-    border-radius: 50%;
+  padding: 10px;
+  background: #beedff;
+  border-radius: 50%;
 }
 
-h3{
-    font-weight: 700;
+h3 {
+  font-weight: 700;
 }
 
 .accommodation-most-popular-container {
-
-    display: flex;
-    padding: 10px;
-    
+  display: flex;
+  padding: 10px;
 }
 
 .accommodation,
 .most-popular {
-
-    flex: 2;
-    padding: 10px;
-    margin: 10px;
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    
+  flex: 2;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-radius: 15px;
 }
+
 .accommodation {
-
-    display: flex;
-    flex-flow: wrap;
+  display: flex;
+  flex-flow: wrap;
 }
 
-.accommodation >div {
-    margin: 10px;
-    align-items: center;
+.accommodation>div {
+  margin: 10px;
+  align-items: center;
 }
+
 .most-popular {
-
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 .img-accommodation {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 200px;
-    height: 100px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 200px;
+  height: 100px;
 }
 
 .img-most-popular {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 120px;
-    height: 120px;
-}
-
-/*.accommodation {
-
-    background: #f2f2f2;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
-    width: 800px;
-    flex-grow: 1;
-    border-radius: 15px;
-    
-}
-
-
-.accommodation >div {
-    margin: 10px;
-    align-items: center;
-
-}
-.most-popular{
-    background: #f2f2f2;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 10px;
-    width: 300px;
-    border-radius: 15px;
-}
-
-.most-popular >div {
-
-    
-    margin: 10px;
-    padding: 10px;
-}
-
-.activities {
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    flex-grow: 1;
-    
-}    
-img{
-    width: 230px;
-    height: 120px;
-}
-
-.img-accommodation {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.img-most-popular {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 120px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 120px;
+  height: 120px;
 }
 
 .img-activities {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+  border-radius: 15px;
 }
-*/
+
+.activities {
+  display: flex;
+}
+
+.activities div {
+  padding: 10px;
+  color: white;
+  flex: 1;
+}
+
+.activities-two {
+  display: flex;
+  flex-direction: column;
+}
